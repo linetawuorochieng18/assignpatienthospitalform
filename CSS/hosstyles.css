@@ -1,0 +1,64 @@
+form{
+
+    border: 1px solid black;
+    width: 40%;
+    margin-left: auto;
+    margin-right:auto;
+    padding:20px;
+    background-color: deepskyblue;
+}
+
+.input-style{
+    width: 75%;
+    padding: 10px 12px;
+    box-sizing: border-box;
+    margin: 9px;
+}
+
+.otherinputs{
+    margin: 5px;
+}
+
+#buttonthe {
+    color: white;
+    padding: 8px 16px;
+    width: 12%;
+    display: inline-block;
+    background-color: cornflowerblue;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.previous {
+    background-color:cornflowerblue;
+    color: white;
+}
+
+.next {
+    background-color: cornflowerblue;
+    color: white;
+
+}
+.Header-logo{
+    position: absolute;
+    top: 2pt;
+    left: 4pt;
+    margin-right: auto;
+    margin-left:45%;
+    right: 6pt;
+    width: 150px;
+    height: 100px;
+    border-radius: 55%;
+
+}
+
+
+

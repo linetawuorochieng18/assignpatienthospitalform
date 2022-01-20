@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head id="header" class=" Header-logo" >
+    <meta charset="UTF-8">
+    <title style="text-align: center"> Patient Registration Form</title>
+    <link rel="stylesheet" href="CSS/hosstyles.css">
+    <img src="images/mylogo.png" class="Header-logo" width="230" height="210" ><br> <br>
+    </div>
+
+</head>
+<body>
+
+
+<form action="#"><br>
+    <h3 style="text-align: center"><b>Patient Details</b></h3>
+    <p style="text-align: center"><i>Please fill the form with your accurate details</i></p>
+    <div>
+        <label>First name</label> <br>
+        <input class="input-style" type="text" name="fname" placeholder="Samwel" required>
+    </div>
+    <div>
+        <label>Second Name</label> <br>
+        <input class="input-style" type="text" name="sname" placeholder="Ochieng" required>
+    </div>
+
+    <div>
+        <label>Phone Number</label> <br>
+        <input class="input-style" type="tel" name="pnumber" placeholder="+254704304522" required>
+    </div>
+
+    <div>
+        <label>Email Address</label> <br>
+        <input class="input-style" type="email" name="email" placeholder="example@gmail.com" required>
+    </div>
+
+    <div>
+        <label>Date of Birth</label><br>
+        <input class="input-style" type="date" name="dob" placeholder="dd/mm/yy" required>
+    </div>
+
+    <div>
+        <label>Residential Address</label><br>
+        <input class="input-style" type="address" name="address" placeholder="14-40300,Kisumu" required>
+    </div>
+    <div>
+        <label>Gender</label> <br>
+        <select class="input-style" name="Gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+
+    </div>
+
+
+    <div>
+        <p><h4><i>Emergency Contact Information </i></h4></p>
+        <div>
+            <label>Full Names</label><br>
+            <input class="input-style" type="text" placeholder="Linet Awuor Ochieng" required>
+        </div>
+        <div>
+            <label>Address</label><br>
+            <input class="input-style" type="text" name="address" placeholder="14th street Kijabe " required>
+        </div>
+        <div>
+            <label>City or State</label><br>
+            <input class="input-style" type="text" name="city" placeholder="Nakuru" required>
+        </div>
+        <div>
+            <label>Relationship</label><br>
+            <select class="input-style" name="Relationship"  required>
+                <option value="Spouse">Spouse</option>
+                <option value="Partner">Partner</option>
+                <option value="Parent">Parent</option>
+                <option value="Sibling">Sibling</option>
+                <option value="Grandparent">GrandParent</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+
+    </div>
+    <div class="otherinputs">
+        <h4><b><i>Patient Payment method</i></b> </h4>
+        <input type="checkbox" value="Cash">
+        <label>Company Insurance</label>
+        <input type="checkbox" value="Insurance">
+        <label>Cash</label>
+        <input type="checkbox" value="credit">
+        <label>Credit</label>
+    </div>
+
+
+    <div class="otherinputs"><br>
+        <label> <p> <b>Click Next page If you have Insurance cover</b> </p></label>
+        <label><p> <b>Click Submit button if you are using either cash or credit</b></p></label>
+    </div>
+    <div>
+        <a href="payment.html" class="next">Next </a>
+        <input id="buttonthe" type="Submit">
+
+    </div>
+
+</form>
+
+</body>
+</html>
